@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/arrow-up.png" ></button>
@@ -42,7 +46,7 @@
           </div>
         </div>
       </nav>
-    <section class=" banner text-center text-uppercase" >
+    <section class=" banner text-center text-uppercase " >
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -65,19 +69,17 @@
     <section class="py-5" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 align-items-center">
+                <div class="col-md-12 align-items-center card shadow p-3 mb-5 bg-body-tertiary rounded">
                     <h4>About Me</h4>
                     <p>Hello! I'm Oviyan S, a passionate and results-driven professional with a strong foundation in web development and a keen interest in cybersecurity.
                         As a web developer , I've had the privilege of working on a diverse range of web projects, from creating dynamic, user-friendly websites to optimizing their performance and security. My expertise extends to programming languages like Python, C++, and Java, allowing me to craft efficient solutions to complex problems.
                        </p>
-                    <p> My journey in the world of technology doesn't stop at development; I'm also deeply committed to the realm of cybersecurity. In an age where digital threats are ever-evolving, I find it exhilarating to stay ahead of the curve, enhancing digital defenses and promoting safe online practices.
-                        I believe in the power of continuous learning, collaboration, and knowledge sharing. On this platform, I'm excited to connect with fellow professionals, share insights, and explore opportunities for growth. Let's connect and embark on a journey of innovation together! 
-                        Feel free to reach out if you share similar interests, have exciting projects in mind, or simply want to connect with a fellow enthusiast. I look forward to networking with you!</p>
+                  
                 </div>
-                <div class="col-md-6">
-                    <img src="./images/pic.png" alt="oviyan photo" class="img-fluid w-75 rounded-circle" >
+                <!-- <div class="col-md-6">
+                    <img src="./images/newpic.jpg" alt="oviyan photo" class="img-fluid w-75 rounded-circle" >
 
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -85,76 +87,97 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="text-center text-uppercase pb-4">Skills</h4>
+                    <h4 class="text-center text-uppercase pb-4 animate__animated animate__backInDown">Skills</h4>
 
                 </div>
 
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/html.png" class="card-img-top w-25 m-auto pt-4" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">HTML</h5>
-                         
-                        </div>
+            <div class="row shadow p-3 mb-5 bg-body-tertiary rounded">
+                      <div class="col-md-3 ">
+                          <div class="card text-center" style="width: 18rem;">
+                              <img src="./images/html.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">HTML</h5>
+                              
+                              </div>
+                            </div>
                       </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/css.png" class="card-img-top w-25 m-auto pt-4" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">CSS</h5>
-                          
+                      
+                        <div class="col-md-3">
+                            <div class="card text-center" style="width: 18rem;">
+                                <img src="./images/css.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">CSS</h5>
+                                  
+                                </div>
+                              </div>
                         </div>
-                      </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/bootstrap.png" class="card-img-top w-25 m-auto pt-4" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Bootstrap</h5>
-                         
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/python.png" class="card-img-top w-25 m-auto pt-4" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Python Django</h5>
-                          
-                        </div>
-                      </div>
                     
-                </div>
-                <div class="col-md-3 pt-4">
-                  <div class="card text-center" style="width: 18rem;">
-                      <img src="./images/java.png" class="card-img-top w-25 m-auto pt-4" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Java</h5>
-                       
+                    
+                        <div class="col-md-3">
+                            <div class="card text-center" style="width: 18rem;">
+                                <img src="./images/bootstrap.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Bootstrap</h5>
+                                
+                                </div>
+                              </div>
+                        </div>
+                    
+                    
+                        <div class="col-md-3">
+                            <div class="card text-center" style="width: 18rem;">
+                                <img src="./images/python.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Python Django</h5>
+                                  
+                                </div>
+                              </div>
+                            
+                        </div>
+                    
+                    
+                        <div class="col-md-3 pt-4">
+                          <div class="card text-center" style="width: 18rem;">
+                              <img src="./images/java.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Java</h5>
+                              
+                              </div>
+                            </div>    
                       </div>
-                    </div>    
-            </div>
-            <div class="col-md-3 pt-4">
-              <div class="card text-center" style="width: 18rem;">
-                  <img src="./images/uiux.png" class="card-img-top w-25 m-auto pt-4" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">UI/UX</h5>
-                   
-                  </div>
-              </div>
-             
-            </div>
-            <div class="col-md-3 pt-4">
-              <div class="card text-center" style="width: 18rem;">
-                  <img src="./images/cyber.png" class="card-img-top w-25 m-auto pt-4" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Cybersecurity</h5>
-                   
-                  </div>
                   
+                        <div class="col-md-3 pt-4">
+                          <div class="card text-center" style="width: 18rem;">
+                              <img src="./images/uiux.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">UI/UX</h5>
+                              
+                              </div>
+                          </div>
+                        
+                        </div>
+                  
+                      <div class="col-md-3 pt-4">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="./images/cyber.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cybersecurity</h5>
+                            
+                            </div>
+                            
+                            </div>
+                          </div>
+                            <div class="col-md-3 pt-4">
+                              <div class="card text-center" style="width: 18rem;">
+                                  <img src="./images/powerBI.png" class="card-img-top w-25 m-auto pt-4" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">PowerBI</h5>
+                                  
+                                  </div>
+                                  
+                                  </div>
+
               </div>
              
         
@@ -171,7 +194,7 @@
           </div>
         </div>
         <div class="row  ">
-          <div class="col-md-6 m-0 border">
+          <div class="col-md-6 m-0 border card">
             <h4><img src="./images/paper-pin.png" class="m-1">Django from Mindluster</h4>
             <h4><img src="./images/paper-pin.png" class="m-1">Web scraping in python from L&T Edutech</h4>
             <h4><img src="./images/paper-pin.png" class="m-1">Foundation of Cybersecurity from Google</h4>
@@ -182,7 +205,7 @@
 
 
           </div>
-          <div class="col-md-6  m-0 border">
+          <div class="col-md-6  m-0 border card" >
            <h4><img src="./images/paper-pin.png" class="m-1">President NSS club</h4>
            <h4><img src="./images/paper-pin.png" class="m-1">Volunteer in Cybersecurity organization </h4>
            <h4><img src="./images/paper-pin.png" class="m-1">Launched Free course on udemy To access <a href="https://www.udemy.com/course/introduction-to-web-developement/learn/lecture/39635894#overview" target="_blank">click here</a></h4>

@@ -6,9 +6,12 @@
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+   
     padding: 250px 0;
+
     
 }
+
 .skills-padding{
     padding: 70px 0;
 }
@@ -40,3 +43,8 @@ a i{
     background-color: #555;
 
   }
+  .card{
+    border-radius: 10px;
+    
+  }
+  
